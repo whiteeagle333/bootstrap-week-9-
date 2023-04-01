@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+  <!----- SECTION 1 ----->
+  <!-- navbar control w dropdown -->
+  <body class="bg-light --bs-bg-opacity">
+    <nav
+      class="navbar navbar-expand-sm navbar-bg-danger text-bg-danger p-3 fs-4 bg-opacity-20"
+    >
+      <a class="navbar-brand fs-4" href="index.html">Home</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="https://youtu.be/d2BekCvAZqM"
+                >How Pu-erh Tea is made</a
+              >
+              <a class="dropdown-item" href="https://youtu.be/RWL3eK_jPJ4"
+                >Health Benefits of Pu-erh Tea</a
+              >
+              <a class="dropdown-item" href="https://youtu.be/kgucBxmjp5o"
+                >Tea as a spiritual practice</a
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="main-container ">
+      <div>
+        <img
+          src="images/Pu erh Tea-1.png"
+          class="img-fluid mt-5 shadow p-3"
+          alt="banner home"
+        />
+      </div>
+
+      <!----- SECTION 2 ----->
+
+      <h1 class="text-left text-green mb-0 mt-5 bg-success p-2 bg-opacity-50">
+        We are a Family
+      </h1>
+
+      <div
+        class="container.lg text-left mb-5 fs-2 bg-success p-2 text-white bg-opacity-20"
+      >
+        <p>
+          Cooperative of Organic Farmers. At Pu Erh, we are passionate about
+          sharing the unique and complex flavors of Pu Erh tea with tea lovers
+          around the world. We work directly with a cooperative of organic
+          farmers in the Yunnan province of China to source the highest quality
+          tea leaves and bring them to you in their purest form. Our commitment
+          to organic farming practices ensures that our teas are free from
+          harmful chemicals and pesticides, and that they are grown in a way
+          that is sustainable for the environment and the farmers who work the
+          land. By supporting our cooperative of working farmers, we are able to
+          bring you the best possible Pu Erh tea while also supporting a
+          community of farmers who are dedicated to producing high-quality,
+          organic teas. Our selection of Pu'er tea includes both raw and ripe
+          varieties, each with their own distinct flavor and aroma.
+        </p>
+      </div>
+
+      <div class="text-center">
+        <img
+          src="images/tea dis.png"
+          class="mx-auto p-2 img-fluid rounded 2."
+          style="width: 400px; height: 400px"
+          alt="tea promo"
+        />
+        <img
+          src="images/farm girl.png"
+          class="mx-auto p-2 img-fluid rounded 2."
+          style="width: 400px; height: 400px"
+          alt="tea promo"
+        />
+        <img
+          src="images/tea 1.png"
+          class="mx-auto p-2 img-fluid rounded 2."
+          style="width: 400px; height: 400px"
+          alt="tea promo"
+        />
+        <img
+          src="images/farmers 2.png"
+          class="mx-auto p-2 img-fluid rounded 2."
+          style="width: 400px; height: 400px"
+          alt="tea promo"
+        />
+      </div>
+      <div
+        class="container.lg mb-5 mt-5 text-left text-white fs-2 bg-success p-2 text-dark bg-opacity-20"
+      >
+        <p>
+          We take great care in packaging and shipping our teas to ensure their
+          freshness and flavor, so that you can enjoy the true taste of Pu Erh
+          tea in every cup. Join us on a journey through the rich and flavorful
+          world of Pu Erh tea.
+        </p>
+
+        <p>
+          Shop our selection of organic, cooperative-grown Pu Erh teas today and
+          taste the difference that quality and sustainability can make.
+        </p>
+      </div>
+      <div>
+        <!-- table bar from bootstrap -->
+        <table class="table table-hover container.navbar-expand-sm mt-5 fs-4">
+          <thead>
+            <tr>
+              <th scope="col" class="bg-danger p-3"></th>
+              <th scope="col " class="bg-danger p-3">List of teas available</th>
+              <th scope="col" class="bg-danger p-3">Description</th>
+              <th scope="col" class="bg-danger p-3">Add tea</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Yiwu Mountain Ancient Tree Raw Pu-erh Tea</td>
+              <td>
+                Sweet and floral aroma, mellow and smooth taste with a slightly
+                bitter aftertaste
+              </td>
+              <td>
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="checkboxNoLabel"
+                  value="1"
+                  aria-label="Yiwu Mountain Ancient Tree Raw Pu-erh Tea"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Bulang Mountain Ancient Tree Raw Pu-erh Tea</td>
+              <td>Rich, earthy flavor with a slight astringency</td>
+              <td>
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="checkboxNoLabel"
+                  value="1"
+                  aria-label="Bulang Mountain Ancient Tree Raw Pu-erh Tea"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Lincang Wild Ancient Tree Raw Pu-erh Tea</td>
+              <td>
+                Bold, earthy flavor with notes of wood and a slight sweetness
+              </td>
+              <td>
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="checkboxNoLabel"
+                  value="1"
+                  aria-label="Lincang Wild Ancient Tree Raw Pu-erh Tea"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Mengku Ancient Tree Raw Pu-erh Tea</td>
+              <td>
+                Complex flavor with notes of honey and a slightly bitter
+                aftertaste
+              </td>
+              <td>
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="checkboxNoLabel"
+                  value="1"
+                  aria-label="Mengku Ancient Tree Raw Pu-erh Tea"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Menghai Ripe Pu-erh Tea</td>
+              <td>
+                Rich and earthy flavor with a smooth, mellow taste and a
+                slightly sweet aftertaste.
+              </td>
+              <td>
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="checkboxNoLabel"
+                  value="1"
+                  aria-label="Menghai Ripe Pu-erh Tea"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>Xiaguan Ripe Pu-erh Tea</td>
+              <td>
+                Bold and robust flavor with notes of dark chocolate and a slight
+                smokiness.
+              </td>
+              <td>
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="checkboxNoLabel"
+                  value="1"
+                  aria-label="Xiaguan Ripe Pu-erh Tea"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>Nanjian Ripe Pu-erh Tea</td>
+              <td>
+                Smooth and mellow flavor with a sweet, fruity taste and a
+                slightly earthy aroma.
+              </td>
+              <td>
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="checkboxNoLabel"
+                  value="1"
+                  aria-label="Nanjian Ripe Pu-erh Tea"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- button bootstrap -->
+        <button type="button" class="text-black btn btn-danger btn-lg">
+          Add to Cart
+        </button>
+        <!-- bootstrap form -->
+        <div>
+          <form class="container-sm-left container-fluid bg-dark">
+            <div class="mb-5 mb-3 mt-3 text-white fs-4 p-0 text-dark">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text text-white">Sign in.</div>
+            </div>
+            <div class="fs-4 text-white mb-5 mt-5">
+              <label for="exampleInputPassword1" class="form-label"
+                >Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+            <div>
+              <button type="submit" class="btn btn-danger">Submit</button>
+            </div>
+          </form>
+        </div>
+        <div
+          class="container.lg text-center text-white mb-1 fs-2 mt-5 bg-dark p-2 bg-opacity-75"
+        >
+          <p>copyright@emmanuelwhiteeagle2023</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
